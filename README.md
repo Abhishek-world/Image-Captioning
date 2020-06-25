@@ -26,7 +26,7 @@ These are specialised deep neural networks that process the data that consists s
 Long Short-Term Memory
 This is a type of RNN (Recurrent Neural Network) which is used for sequence prediction. Based on the previous text, we can predict the next word. LSTM carries out relevant information throughout processing of inputs and discards the non-relevant information.
 Algorithm
-For this project, we don’t have to create the model from the scratch, we can apply transfer learning. Transfer learning is process where we use the pre trained model which have already been trained on large datasets. Here we use Xception model which was trained on ImageNet dataset. We can directly import this dataset from keras.applications
+For this project, we don’t have to create the model from the scratch, we can apply transfer learning. Transfer learning is process where we use the pre trained model which have already been trained on large datasets. Here we use VGG16 model which was trained on ImageNet dataset. We can directly import this dataset from keras.applications
 Model Preparation
 To make our image descriptor model, we will be merging the architectures. It is also called a CNN-RNN model. CNN (Convolution Neural Network) is used for extracting features from the image. LSTM (Long Short-Term Memory) will use the information from CNN to help generate a description of the image.In CNN – RNN Model, we have to get the three functions: 1) Feature Extraction 2) Sequence Processor 3) Decoder
 e. Results and Discussions
