@@ -1,7 +1,7 @@
-# Image-Captioning
-**Image Captioning Project Using RNN and CNN**
+"**Image-Captioning\n"
+"**Image Captioning Project Using RNN and CNN**\n"
 **Abstract**
-Generating textual description for a given photograph is a challenging artificial intelligence problem. The methodology should be developed in a such a way that it requires computer vision to understand the content of the image and language model from the field of natural language processing. It should turn the understanding of the image into the words in the right order. This project involves computer vision and natural language processing concepts to recognize the context of an image and describe them in a natural language like English. We will use specialized deep neural networks like CNN, RNN for feature extraction and LSTM to generate the description for the features extracted from CNN.
+"Generating textual description for a given photograph is a challenging artificial intelligence problem. The methodology should be developed in a such a way that it requires computer vision to understand the content of the image and language model from the field of natural language processing. It should turn the understanding of the image into the words in the right order. This project involves computer vision and natural language processing concepts to recognize the context of an image and describe them in a natural language like English. We will use specialized deep neural networks like CNN, RNN for feature extraction and LSTM to generate the description for the features extracted from CNN.\n"
 **Index Terms—Image caption, CNN, LSTM, model development, training dataset.
 
 **Motivation**
